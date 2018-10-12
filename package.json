@@ -1,0 +1,34 @@
+{
+  "name": "graphql-tuts",
+  "version": "1.0.0",
+  "description": "A concept application for using Apollo GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "open http://localhost:1234 && parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larrycustodio/graphiql-bytes.git"
+  },
+  "author": "larrycustodio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larrycustodio/graphiql-bytes/issues"
+  },
+  "homepage": "https://github.com/larrycustodio/graphiql-bytes#readme",
+  "alias": {
+    "milligram": "./node_modules/milligram/dist"
+  },
+  "dependencies": {
+    "milligram": "^1.3.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "babel-preset-preact": "^1.1.0",
+    "parcel-bundler": "^1.10.3",
+    "typescript": "^3.1.3"
+  }
+}
