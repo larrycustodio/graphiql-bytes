@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
+    "start:dev": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -32,6 +33,7 @@
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "babel-preset-preact": "^1.1.0",
+    "nodemon": "^1.18.9",
     "parcel-bundler": "^1.10.3",
     "typescript": "^3.1.3"
   }
